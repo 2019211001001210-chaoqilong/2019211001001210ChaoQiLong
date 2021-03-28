@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+</web-app><?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+<!--using SQL SErver db,i want to change mysql db-->
+<!--
+<int-param>
+    <param-name>driver</param-name>
+    <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+</int-param>
+    <int-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:sqlserver://localhost;databaseName=userdb;</param-value>
+    </int-param>
+    <int-param>
+        <param-name>username</param-name>
+        <param-value>sa</param-value>
+    </int-param>
+    <int-param>
+        <param-name>password</param-name>
+        <param-value>261217</param-value>
+    </int-param>
+    -->
+<!--use my sql-->
+<int-param>
+    <param-name>driver</param-name>
+    <param-value>com.mysql.jdbc.Driver</param-value>
+</int-param>
+<int-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:mysql://localhost:3306/userdb;</param-value>
+</int-param>
+<int-param>
+    <param-name>username</param-name>
+    <param-value>root</param-value>
+</int-param>
+<int-param>
+    <param-name>password</param-name>
+    <param-value>root</param-value>
+</int-param>
+
+
+
+</web-app>
